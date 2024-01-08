@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Morpion</title>
+</head>
+<body>
+    <header>
+        <h1>Le Jeu Du Morpion</h1>
+    </header>
+    <main>
+        <div id="gameEnd">
+            <input type="submit" value="Player vs Player" id="reloadGame" onclick="reloadGameCpu(false)">
+            <input type="submit" value="Player vs Cpu" id="reloadGameCpu" onclick="reloadGameCpu(true)">
+        </div>
+        <h2 id="gameStatus">Le Joueur 1 commence !</h2>
+        <div id="board">
+
+        </div>
+    </main>
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
